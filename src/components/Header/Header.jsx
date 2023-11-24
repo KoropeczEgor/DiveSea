@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
-import Logo from "../assets/icons/logo";
-import FormSearch from "../Forms/FormSearch";
-import Button from "../ButtonPrimary/ButtonPrimary";
+import Logo from "../../assets/icons/logo";
+
+import FormSearch from "../Forms";
+import Button from "../ButtonPrimary";
 
 import styled from "styled-components";
 import { ListLinks } from "./Header.config";

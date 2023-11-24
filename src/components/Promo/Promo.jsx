@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-import Button from "../ButtonPrimary/ButtonPrimary";
+import Button from "../ButtonPrimary";
 
-import Arrow from "../assets/icons/promo/Arrow";
-import DotOrnament from "../assets/icons/promo/DotOrnament";
-import Promo1 from "../assets/icons/promo/promo1.png";
-import Promo2 from "../assets/icons/promo/promo2.png";
+import Arrow from "../../assets/icons/promo/Arrow";
+import DotOrnament from "../../assets/icons/promo/DotOrnament";
+import Promo1 from "../../assets/icons/promo/promo1.png";
+import Promo2 from "../../assets/icons/promo/promo2.png";
 
 const PromoMain = styled.main`
-  padding: 7.87rem 0 8.93rem 0;
+  padding: 7.87rem 0 10.31rem 0;
 `;
 const Container = styled.div`
   max-width: 1240px;
@@ -81,21 +81,21 @@ const MainSlider = styled.div`
   position: relative;
   .Promo1 {
     position: absolute;
-    top: 24%;
+    top: 3%;
   }
   .Promo2 {
     position: absolute;
-    top: 59%;
+    top: 37%;
     left: 27rem;
   }
   .Arrow {
     position: absolute;
-    top: 38%;
+    top: 13%;
     left: 25rem;
   }
   .DotOrnament {
     position: absolute;
-    top: 31%;
+    top: 7%;
     left: 40rem;
   }
 `;

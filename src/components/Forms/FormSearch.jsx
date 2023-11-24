@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Search from "../assets/icons/search";
+import Search from "../../assets/icons/search";
 
 const Form = styled.div`
   .form__input {
